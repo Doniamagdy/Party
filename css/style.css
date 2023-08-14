@@ -1,0 +1,187 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    position: absolute;
+    top:30%;
+  }
+
+
+.section_one{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vh;
+}
+
+.section_one h2{
+  font-size: 60px;
+}
+
+
+.layer{
+    background-color: rgba(255, 0, 0, 0.452);
+    height:70vh;
+
+}
+
+
+
+
+.section_two h3{
+    color:white;
+    background-color: rgba(255, 0, 0, 0.452);
+    margin-top:-8px;
+}
+
+.section_two p{
+    background-color: antiquewhite;
+    margin-top:-8px;
+}
+
+
+.section_three{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    height:40vh;
+}
+
+.layer2{
+  background-color: rgba(255, 0, 0, 0.452);
+  height:40vh;
+
+}
+
+#timer div {
+    display: inline-block;
+    line-height: 1;
+    padding: 20px;
+    font-size: 40px;
+  }
+  
+  span {
+    display: block;
+    font-size: 20px;
+    color: black;
+  }
+  
+  #days {
+    font-size: 100px;
+    color: #db4844;
+    background-color:white;
+    border-radius: 5px;
+    width:120px;
+  }
+  #hours {
+    font-size: 100px;
+    color: #f07c22;
+    background-color:white;
+    border-radius: 5px;
+    width:120px;
+  }
+  #minutes {
+    font-size: 100px;
+    color: #f6da74;
+    background-color:white;
+    border-radius: 5px;
+    width:120px;
+  }
+  #seconds {
+    font-size: 50px;
+    color: #abcd58;
+    background-color:white;
+    border-radius: 5px;
+    width:120px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+   
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
